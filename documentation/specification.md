@@ -1,7 +1,7 @@
 # Specifications
 
 ## What does it do?
-The software is a [rock paper scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) AI. It takes an inputs (rock, paper or scissors) from the user and calculates the probability of player giving a certain input from the previous inputs and outcomes of the games against said user.
+The software is a [rock paper scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) AI. It takes an inputs (rock, paper or scissors) from the user and calculates the probability of player giving a certain input from the previous inputs and outcomes of the games against said user. Options can be added to compare how the algorithm works if it considers different amount of games and even a comparison to another algorithms (if such algorithms for rock paper scissors exist).
 
 ## Algorithm
 The algorithm used in the AI is [Markov chains](https://en.wikipedia.org/wiki/Markov_chain). There are two choices for the algorithm. Firstly I had never used it or even read about before unlike the most of the other algorithms presented in the [course documentation](https://tiralabra.github.io/2021_p2/en/topics/). Secondly the algorithm is best suited for our problem. It can adapt to players strategy unlike any other algorithm and can see patterns in opponents behaviour in this seemingly luck-based game.
