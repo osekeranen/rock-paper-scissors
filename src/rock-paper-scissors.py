@@ -1,8 +1,8 @@
-import random
+import logic.ai
 
 beat = {'R':'P', 'P':'S', 'S':'R'}
 
-output = list(beat.keys())[random.randint(0,2)]
+output = logic.ai.AI.play()
 print('A.I. plays:', output)
 input = input('Human plays: ')
 
