@@ -1,8 +1,9 @@
 import logic.ai
 
 beat = {'R':'P', 'P':'S', 'S':'R'}
+ai = logic.ai.AI(beat)
 
-output = logic.ai.AI.play()
+output = ai.play()
 print('A.I. plays:', output)
 input = input('Human plays: ')
 
